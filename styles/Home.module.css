@@ -12,6 +12,9 @@
   align-items: center;
 }
 
+.main a { color: blue }
+.main a:hover { color: turquoise }
+
 .footer {
   display: flex;
   flex: 1;
