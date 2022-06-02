@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Part of Head is removed client-side
+This project is created to reproduce an issue with the next/head component where content in the head component is partly removed when added via a component(SeoHead).
+
+When the content is directly added into the Head component, the content is not removed.
+
+See both examples on `/overwritten` and `/not-overwritten`
+
+## Context
+We are running a headless WordPress installation and rendering all the content in a Nextjs app. For Seo purposes we render the full head, provided by the Yoast CMS plugin. This 'full head' is just a html string returned from the WP API.
+
 
 ## Getting Started
 
