@@ -5,6 +5,9 @@ When the content is directly added into the Head component, the content is not r
 
 See both examples on `/overwritten` and `/not-overwritten`
 
+- /overwritten: meta properties 'og:site_name', 'article:publisher', etc cannot be found in head. Also the script with the class 'yoast-schema-graph' is gone
+- /not-overwritten: meta properties and yoast script still in head
+
 ## Context
 We are running a headless WordPress installation and rendering all the content in a Nextjs app. For Seo purposes we render the full head, provided by the Yoast CMS plugin. This 'full head' is just a html string returned from the WP API.
 

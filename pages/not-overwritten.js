@@ -30,7 +30,7 @@ export default function NotOverwritten() {
       </Head>
       <div>
         <h1>Head is Not overwritten</h1>
-        <p>yoast-schema-graph is in head</p>
+        <p>meta properties and yoast script still in head</p>
       </div>
     </div>
   )

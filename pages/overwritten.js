@@ -30,7 +30,7 @@ export default function Overwritten() {
       </Head>
       <div>
         <h1>Head is overwritten</h1>
-        <p>yoast-schema-graph is not in Head anymore</p>
+        <p>meta properties og:site_name, article:publisher, etc cannot be found in head. Also the script with the class yoast-schema-graph is gone</p>
       </div>
     </div>
   )
